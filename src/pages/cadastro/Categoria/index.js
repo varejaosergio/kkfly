@@ -21,7 +21,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
-      const URL = 'https://inovasurfflix.herokuapp.com/categorias';
+      const URL = 'https://krystian-kymerson.herokuapp.com/categorias';
       fetch(URL)
         .then(async (respostaDoServer) => {
           if (respostaDoServer.ok) {
